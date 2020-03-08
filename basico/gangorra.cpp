@@ -7,7 +7,7 @@ int main() {
 	int left = p1 * c1;
 	int right = p2 * c2;
 
-	if (left < right)
+	if (left > right)
 		cout << -1;
 	else if (left == right)
 		cout << 0;
